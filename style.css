@@ -285,6 +285,10 @@ a.button:active {
     padding-top: 110px;
 }
 
+.my-info-wrapper.mobile {
+    display: none;
+}
+
 .my-info {
     margin-bottom: 30px;
 }
@@ -1390,6 +1394,10 @@ p.contact-submit-holder {
         padding-bottom: 75px;        
     }
 
+    .my-info-wrapper.mobile {
+        display: none !important;
+    }
+
     .top-pagination,
     .menu-wrapper {
         padding-top: 110px;
@@ -1423,6 +1431,9 @@ p.contact-submit-holder {
         margin-bottom: 0;
     }
 
+    .my-info-wrapper.mobile {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 1440px) {
@@ -1440,6 +1451,9 @@ p.contact-submit-holder {
         margin-top: 11px;
     }
 
+    .my-info-wrapper.mobile {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 1360px) {
@@ -1470,6 +1484,10 @@ p.contact-submit-holder {
     .my-info-wrapper,
     .big-num {
         display: none;
+    }
+
+    .my-info-wrapper.mobile {
+        display: block !important;
     }
 
     .menu-wrapper {
@@ -1516,6 +1534,9 @@ p.contact-submit-holder {
         margin-bottom: 0;
     }
 
+    .my-info-wrapper.mobile {
+        display: block !important;
+    }
 }
 
 
@@ -1592,6 +1613,9 @@ p.contact-submit-holder {
         margin-bottom: 30px;
     }
 
+    .my-info-wrapper.mobile {
+        display: block !important;
+    }
 }
 
 @media screen and (max-height: 880px) {    
@@ -1600,6 +1624,9 @@ p.contact-submit-holder {
         display: none;
     }
 
+    .my-info-wrapper.mobile {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 767px) {  
@@ -1726,6 +1753,9 @@ p.contact-submit-holder {
         padding: 15px;
     }
 
+    .my-info-wrapper.mobile {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 650px) {     
@@ -1758,6 +1788,10 @@ p.contact-submit-holder {
         max-height: none;
     }
 
+        .my-info-wrapper.mobile {
+        display: block !important;
+    }
+
 }
 
 @media screen and (max-width: 480px) {    
@@ -1766,6 +1800,10 @@ p.contact-submit-holder {
         display: table; 
         margin-left: 0;
         margin-bottom: 20px; 
+    }
+
+        .my-info-wrapper.mobile {
+        display: block !important;
     }
 
 }
