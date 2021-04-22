@@ -65,8 +65,6 @@ body a:hover {
 body img {
     max-width: 100%;
     max-height: 100%;
-    width: auto;
-    height: auto;
     display: block;
 }
 
@@ -286,6 +284,7 @@ a.button:active {
 }
 
 .my-info-wrapper.mobile {
+    padding-top: 40px;
     display: none;
 }
 
@@ -533,7 +532,7 @@ img.my-info-signature {
     margin: 0;
     display: flex;
     display: -webkit-flex;
-    align-items: center;
+    align-items: top;
     background-color: #D67755;
 }
 
@@ -1395,7 +1394,7 @@ p.contact-submit-holder {
     }
 
     .my-info-wrapper.mobile {
-        display: none !important;
+        display: none;
     }
 
     .top-pagination,
@@ -1432,7 +1431,7 @@ p.contact-submit-holder {
     }
 
     .my-info-wrapper.mobile {
-        display: none !important;
+        display: none;
     }
 }
 
@@ -1452,7 +1451,7 @@ p.contact-submit-holder {
     }
 
     .my-info-wrapper.mobile {
-        display: none !important;
+        display: none;
     }
 }
 
@@ -1487,7 +1486,7 @@ p.contact-submit-holder {
     }
 
     .my-info-wrapper.mobile {
-        display: block !important;
+        display: block;
     }
 
     .menu-wrapper {
@@ -1535,7 +1534,7 @@ p.contact-submit-holder {
     }
 
     .my-info-wrapper.mobile {
-        display: block !important;
+        display: block;
     }
 }
 
@@ -1614,20 +1613,10 @@ p.contact-submit-holder {
     }
 
     .my-info-wrapper.mobile {
-        display: block !important;
+        display: block;
     }
 }
 
-@media screen and (max-height: 880px) {    
-
-    .big-num {
-        display: none;
-    }
-
-    .my-info-wrapper.mobile {
-        display: block !important;
-    }
-}
 
 @media screen and (max-width: 767px) {  
 
@@ -1789,7 +1778,7 @@ p.contact-submit-holder {
     }
 
         .my-info-wrapper.mobile {
-        display: block !important;
+        display: block;
     }
 
 }
@@ -1803,7 +1792,7 @@ p.contact-submit-holder {
     }
 
         .my-info-wrapper.mobile {
-        display: block !important;
+        display: block;
     }
 
 }
