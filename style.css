@@ -53,13 +53,13 @@ body {
 }
 
 body a {
-    text-decoration: none;
-    color: #000000;    
+    text-decoration: underline;
+    color: #fff;
     transition: color .3s linear;
 }
 
 body a:hover {
-    color: #fff;
+    color: #D67755;
 }
 
 body img {
@@ -536,7 +536,7 @@ img.my-info-signature {
 h2.section-title {
     font-size: 30px;
     line-height: 100%;
-    margin-bottom: 30px;
+    margin-top: 60px;
     padding-top: 0;
 }
 
@@ -1234,7 +1234,7 @@ p.skill-circle-text {
 .skill-fill {
     width: 10%;
     height: 22px;
-    background-color: #000;
+    background-color: #D67755;
     transform: translateY(-5px);
     transition: width .7s;
 }
