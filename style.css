@@ -1159,6 +1159,10 @@ img.my-signature {
     width: 215px; 
 }
 
+li span.roadmap-done {
+    text-decoration: line-through !important;
+    color: rgba(255,255,255,0.35) !important;
+}
 
 /* ===================================
     9. Skills Section CSS
